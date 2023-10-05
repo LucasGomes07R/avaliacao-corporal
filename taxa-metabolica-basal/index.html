@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metabolica basal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Taxa metabolica basal        </h1>
+    </header>
+    <section>
+         <label for="Peso">Peso:<input type="text" name="peso" id="txtp"></label>
+        <label for="altura">Altura: <input type="text" name="altura" id="txta"></label>
+        <label for="Idade">Idade: <input type="text" name="Idade" id="txti"></label>
+        Sexo:
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>  
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+        <p><input type="button" value="Calcular" onclick="txbasal()"></p>
+        <div id="res">Preencha os dados para obter sua taxa metabolica basal!</div>
+    </section>
+    <script src="script.js"></script>
+    
+</body>
+</html>
